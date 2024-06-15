@@ -1,6 +1,9 @@
 # vikings-2.0 jmat
 En este ejercicio tendrás que aplicar los conceptos de programación orientada a objetos y herencia pero esta vez con Java a nuestros amigos vikingos.
 
+
+![-resultado](results_test_ok.webp)
+
 ## Requisitos
 
 - Se te asignará el repositorio desde classroom.
