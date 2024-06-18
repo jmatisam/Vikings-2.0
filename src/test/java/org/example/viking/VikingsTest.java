@@ -22,7 +22,14 @@ public void should_inherit_from_Soldier() {
 
 @Test
 public void should_receive_3_arguments() {
-    assertNotNull(viking);
+
+
+
+    assertEquals("Harald", viking.getName());
+    assertEquals(150, viking.getStrength());
+    assertEquals(300, viking.getHealth());
+
+
 }
 
 @Test

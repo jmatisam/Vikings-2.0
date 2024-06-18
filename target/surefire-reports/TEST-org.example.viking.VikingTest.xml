@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.viking.VikingTest" time="0.086" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.viking.VikingTest" time="0.079" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire8012129155920488249\surefirebooter7030943492711380812.jar C:\Users\ADMIN\AppData\Local\Temp\surefire8012129155920488249 2024-06-15T14-33-12_761-jvmRun1 surefire7608649234581042591tmp surefire_010882235083573392955tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire13015800329770856099\surefirebooter17498909136514320271.jar C:\Users\ADMIN\AppData\Local\Temp\surefire13015800329770856099 2024-06-18T10-28-50_034-jvmRun1 surefire5320664928327584164tmp surefire_04993234449438128078tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\jmat_DEVOps\07_proyectos\vikins-2.0\target\test-classes;C:\jmat_DEVOps\07_proyectos\vikins-2.0\target\classes;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire8012129155920488249\surefirebooter7030943492711380812.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire13015800329770856099\surefirebooter17498909136514320271.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
@@ -58,17 +58,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="should_inherit_from_Soldier" classname="org.example.viking.VikingTest" time="0.011"/>
-  <testcase name="should_remove_the_received_damage_from_the_health_property" classname="org.example.viking.VikingTest" time="0.024"/>
-  <testcase name="attack_should_receive_0_arguments" classname="org.example.viking.VikingTest" time="0"/>
+  <testcase name="should_inherit_from_Soldier" classname="org.example.viking.VikingTest" time="0.006"/>
+  <testcase name="should_remove_the_received_damage_from_the_health_property" classname="org.example.viking.VikingTest" time="0.037"/>
+  <testcase name="attack_should_receive_0_arguments" classname="org.example.viking.VikingTest" time="0.001"/>
   <testcase name="attack_should_return_strength_property_of_the_Vikings" classname="org.example.viking.VikingTest" time="0.001"/>
-  <testcase name="should_receive_the_health_property_as_its_1st_argument" classname="org.example.viking.VikingTest" time="0.002"/>
-  <testcase name="should_receive_the_health_property_as_its_2st_argument" classname="org.example.viking.VikingTest" time="0.002"/>
-  <testcase name="damage_should_receive_1_arguments" classname="org.example.viking.VikingTest" time="0.006"/>
+  <testcase name="should_receive_the_health_property_as_its_1st_argument" classname="org.example.viking.VikingTest" time="0.001"/>
+  <testcase name="should_receive_the_health_property_as_its_2st_argument" classname="org.example.viking.VikingTest" time="0.001"/>
+  <testcase name="damage_should_receive_1_arguments" classname="org.example.viking.VikingTest" time="0"/>
   <testcase name="should_receive_the_health_property_as_its_3st_argument" classname="org.example.viking.VikingTest" time="0.001"/>
-  <testcase name="should_return_NAME_has_died_in_act_of_combat_if_the_Viking_dies" classname="org.example.viking.VikingTest" time="0.006"/>
-  <testcase name="battleCry_should_receive_0_arguments" classname="org.example.viking.VikingTest" time="0"/>
-  <testcase name="should_return_Odin_Owns_You_All_" classname="org.example.viking.VikingTest" time="0.001"/>
+  <testcase name="should_return_NAME_has_died_in_act_of_combat_if_the_Viking_dies" classname="org.example.viking.VikingTest" time="0.002"/>
+  <testcase name="battleCry_should_receive_0_arguments" classname="org.example.viking.VikingTest" time="0.001"/>
+  <testcase name="should_return_Odin_Owns_You_All_" classname="org.example.viking.VikingTest" time="0.002"/>
   <testcase name="should_receive_3_arguments" classname="org.example.viking.VikingTest" time="0.001"/>
-  <testcase name="should_return_NAME_has_received_DAMAGE_points_of_damage_if_the_Viking_is_still_alive" classname="org.example.viking.VikingTest" time="0"/>
+  <testcase name="should_return_NAME_has_received_DAMAGE_points_of_damage_if_the_Viking_is_still_alive" classname="org.example.viking.VikingTest" time="0.001"/>
 </testsuite>
